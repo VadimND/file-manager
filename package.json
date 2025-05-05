@@ -1,0 +1,24 @@
+{
+  "name": "file-manager",
+  "version": "1.0.0",
+  "description": "File manager with CLI for NodeJS",
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js -- --username=your_username",
+    "test": "node index.js -- --username=your_username"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VadimND/file-manager.git"
+  },
+  "author": "VadimND",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VadimND/file-manager/issues"
+  },
+  "homepage": "https://github.com/VadimND/file-manager#readme"
+}
